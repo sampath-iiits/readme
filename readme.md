@@ -4,9 +4,31 @@
 <table>
 <tr>
 
-<td width="20%" valign="top">
+<td width="16.6%" valign="top">
 
-<h3 align="center">📁 src</h3>
+<h3 align="center">📁 src (core)</h3>
+
+<pre>
+routes/
+  AppRoutes.jsx
+
+utils/
+  layoutIdGenerator.js
+  seatIdGenerator.jsx
+
+App.jsx
+main.jsx
+firebase.js
+supabaseClient.js
+userSlice.js
+index.css
+</pre>
+
+</td>
+
+<td width="16.6%" valign="top">
+
+<h3 align="center">📁 src (UI)</h3>
 
 <pre>
 assets/
@@ -44,26 +66,12 @@ components/
   utils/
     ScrollToTop.jsx
 
-routes/
-  AppRoutes.jsx
-
 stadium/
-
-utils/
-  layoutIdGenerator.js
-  seatIdGenerator.jsx
-
-App.jsx
-firebase.js
-index.css
-main.jsx
-supabaseClient.js
-userSlice.js
 </pre>
 
 </td>
 
-<td width="20%" valign="top">
+<td width="16.6%" valign="top">
 
 <h3 align="center">🎨 editor (UI)</h3>
 
@@ -94,7 +102,7 @@ components/
 
 </td>
 
-<td width="20%" valign="top">
+<td width="16.6%" valign="top">
 
 <h3 align="center">🎨 editor (engine)</h3>
 
@@ -126,7 +134,7 @@ utils/
 
 </td>
 
-<td width="20%" valign="top">
+<td width="16.6%" valign="top">
 
 <h3 align="center">🎨 editor (state)</h3>
 
@@ -163,7 +171,7 @@ tools/
 
 </td>
 
-<td width="20%" valign="top">
+<td width="16.6%" valign="top">
 
 <h3 align="center">🏟️ stadium</h3>
 
@@ -192,6 +200,14 @@ sectionLayout.js
 SeatRenderer.jsx
 SectionRenderer.jsx
 geometry.js
+useVirtualization.js
+useZoom.js
+</pre>
+
+</td>
+
+</tr>
+</table>
 useVirtualization.js
 useZoom.js
 </pre>
